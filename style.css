@@ -1,0 +1,13 @@
+:root{
+  --Violet: #674baf;
+  --Soft-Magenta: #e882e8;
+}
+*{
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
