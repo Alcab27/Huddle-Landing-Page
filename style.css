@@ -1,6 +1,7 @@
 :root{
   --Violet: #674baf;
   --Soft-Magenta: #e882e8;
+  --white: #fff;
 }
 *{
   box-sizing: 0;
@@ -8,6 +9,7 @@
   padding: 0;
 }
 html{
+  font-size: 62.5%;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Poppins', sans-serif;
 }
@@ -15,4 +17,55 @@ body{
   background-color: var(--Violet);
   background-image: url(./images/bg-mobile.svg);
   background-repeat: no-repeat;
+  padding: 24px;
+}
+.navbar{
+  height: 15%;
+}
+.navbar img{
+  width: 30%;
+}
+.main-content{
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main-content img{
+  width: 85%;
+  margin-bottom: 44px;
+}
+.tittle{
+  font-size: 2.5rem;
+  color: var(--white);
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+.paragraph{
+  color: var(--white);
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.primary-button{
+  border: none;
+  background-color: var(--white);
+  color: var(--Violet);
+  height: 40px;
+  width: 200px;
+  border-radius: 25px ;
+  margin-bottom: 20px;
+}
+
+.footer{
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  /* height: 60px; */
+}
+.footer img{
+  width: 10%;
+  color: var(--white);
 }
