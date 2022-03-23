@@ -34,7 +34,7 @@ body{
 }
 .main-content img{
   width: 85%;
-  margin-bottom: 44px;
+  margin-bottom: 30px;
 }
 .tittle{
   font-size: 2.5rem;
@@ -58,14 +58,23 @@ body{
   border-radius: 25px ;
   margin-bottom: 20px;
 }
+.primary-button:hover{
+  color: var(--white);
+  background-color: var(--Soft-Magenta);
+}
 
 .footer{
   display: flex;
-  align-items: end;
+  align-items: center;
   justify-content: center;
-  /* height: 60px; */
 }
-.footer img{
-  width: 10%;
-  color: var(--white);
+svg {
+  width: 25px;
+  margin: 4px;
+}
+.icon{
+  fill: var(--white);
+}
+.icon:hover{
+  fill: var(--Soft-Magenta);
 }
