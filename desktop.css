@@ -1,0 +1,41 @@
+body{
+  background-image: url(./images/bg-desktop.svg);
+  background-size: cover;
+  padding: 0 24px;
+  height: 100vh;
+}
+  .navbar{
+    height: 10%;
+    margin-bottom: 20px;
+}
+  .navbar img{
+    width: 18%;
+}
+  .main-content{
+    flex-direction: row;
+}
+.principal-image img{
+    width: 580px;
+    margin-bottom: 30px;
+}
+  .info-section{
+  align-items: flex-start;
+  margin-left: 32px;
+}
+.tittle{
+  font-size: 3rem;
+}
+.paragraph{
+  font-size: 1.5rem;
+  text-align:justify;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer{
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+svg {
+  width: 30px;
+  margin: 4px;
+}

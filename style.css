@@ -32,9 +32,18 @@ body{
   justify-content: center;
   flex-direction: column;
 }
-.main-content img{
+.principal-image{
+  display: flex;
+  justify-content: center;
+}
+.principal-image img{
   width: 85%;
   margin-bottom: 30px;
+}
+.info-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .tittle{
   font-size: 2.5rem;
@@ -62,7 +71,6 @@ body{
   color: var(--white);
   background-color: var(--Soft-Magenta);
 }
-
 .footer{
   display: flex;
   align-items: center;
